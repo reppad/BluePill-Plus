@@ -3,8 +3,9 @@
 * [Enlish version](./README.md)
 
 > STM32F103C8T6
-
-> 72Mhz,20KB RAM,64KB ROM
+* 72Mhz,20KB RAM,64KB ROM
+> GD32F303CCT6
+* 120Mhz,48KB RAM,256KB ROM
 
 > 无铅工艺，健康使用
 
@@ -45,8 +46,11 @@
 ## 特性
 
 * STM32F103C8T6 ARM Cortex M3
-* `72 MHz` 最大频率，1.25 DMIPS/MHz (Dhrystone 2.1)性能在0等待状态内存访问
-* `64 Kbytes` 的Flash, `20 Kbytes`的SRAM
++ `72 MHz` 最大频率，1.25 DMIPS/MHz (Dhrystone 2.1)，0等待内存访问
++ `64 Kbytes` 的Flash, `20 Kbytes`的SRAM
+* GD32F303CCT6 ARM Cortex M4
++ `120 MHz` maximum frequency,performance at 0 wait state memory access
++ `256 Kbytes` of Flash memory, `48 Kbytes` of SRAM
 * `8 MHz` 系统晶振
 * `32.768 KHz` RTC晶振
 * 蓝色 LED `PB2` Active high
